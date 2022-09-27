@@ -18,7 +18,7 @@ from django.conf import settings  # new
 from django.urls import path, include  # new
 from django.conf.urls.static import static  # new
 
-import debug_toolbar
+
 import briefcase
 admin.site.site_header = 'Portfolio Website'
 admin.site.index_title = 'Admin'
