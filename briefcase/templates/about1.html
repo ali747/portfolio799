@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<title>check page</title>
+
+<head>skills</head>
+
+<body>
+    <div>SKILLS
+        {% for projects in project %}
+        <ul>
+            <li>{{projects.title}}</li>
+            <li>{{projects.description}}</li>
+            <li><img src="{{projects.image }}"></li>
+            <li>{{projects.technology}}</li>
+        </ul>
+        {% endfor %}
+    </div>
+</body>
+
+</html>
